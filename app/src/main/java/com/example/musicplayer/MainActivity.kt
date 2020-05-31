@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.IBinder
 import android.os.Parcelable
-import com.example.musicplayer.player.PlayerState
+import com.example.state.PlayerState
 import com.example.musicplayer.service.SongService
 import com.example.musicplayer.ui.songplaylist.SongPlaylistFragment
 import com.karumi.dexter.Dexter
@@ -18,7 +18,6 @@ import com.karumi.dexter.listener.PermissionDeniedResponse
 import com.karumi.dexter.listener.PermissionGrantedResponse
 import com.karumi.dexter.listener.PermissionRequest
 import com.karumi.dexter.listener.single.PermissionListener
-import kotlinx.android.synthetic.main.activity_main.*
 import timber.log.Timber
 import java.util.ArrayList
 
