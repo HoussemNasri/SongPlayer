@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.IBinder
 import android.os.Parcelable
-import com.example.state.PlayerState
+import com.example.musicplayer.state.PlayerState
 import com.example.musicplayer.service.SongService
 import com.example.musicplayer.ui.songplaylist.SongPlaylistFragment
 import com.karumi.dexter.Dexter

@@ -4,7 +4,7 @@ import android.content.Context
 import android.media.MediaPlayer
 import android.net.Uri
 import com.example.musicplayer.Song
-import com.example.state.PlayerState
+import com.example.musicplayer.state.PlayerState
 
 class AndroidSongPlayer(
     private val context: Context,
